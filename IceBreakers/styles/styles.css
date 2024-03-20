@@ -1,0 +1,12 @@
+/* This is gonna be the general css so fonts etc think about it this way in a word document you want all your
+heading 1s to look the same way we can use one line here to set the right size in every page */
+
+
+.backbutton img {
+    width: 18px;
+    position: absolute;
+    margin-left: 20px;  
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+  }
