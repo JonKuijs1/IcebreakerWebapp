@@ -55,12 +55,8 @@ li div {
     margin-bottom: 200px;
   }*/
 
-  a {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 5px;
+  .primarybutton {
+     margin-right: auto;
   }
 
 }

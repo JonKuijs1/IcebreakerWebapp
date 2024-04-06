@@ -6,6 +6,12 @@
     <title>Hangman Game</title>
     <link rel="stylesheet" href="styles/hangman.css">
     <link rel="stylesheet" href="styles/syles.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "League Spartan", sans-serif;
+    }
+  </style>
 </head>
 <body>
 
@@ -16,7 +22,7 @@
         <button onclick="submitWord()">Submit Word</button>
     </div>
     <div id="gameSection" style="display:none;">
-        <div id="hangmanImage"><img src="images/hangman0.svg" alt="Hangman Progress" id="hangmanProgressImg"></div>
+        <div id="hangmanImage"><img src="images/hangman0.svg" alt="Hangman Progress" id="hangmanProgressImg" class="animate-svg" ></div>
         <div id="wordDisplay"></div>
         <input type="text" id="letterInput" placeholder="Enter a letter" maxlength="1">
         <button onclick="submitLetter()">Submit Letter</button>
